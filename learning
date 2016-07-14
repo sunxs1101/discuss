@@ -1,7 +1,6 @@
 2016/7/14
-wang:我昨天开会的时候，对asymmetrical encryption的解释是错的。事实是，通信双方都要有各自的秘钥对；
-并且用对方的公钥加密，对方用自己的私钥解密。我想这就是为什么apiserver要有自己的key pair (apiserver{-key}.pem)，
-并且kubectl也有要自己的key pair（admin{-key}.pm) 的原因。
-具体解释请参见 https://blog.barracuda.com/2015/07/09/ssl-and-tls-explained/
-In Asymmetrical encryption, the two entities exchange public keys.Each party uses the other’s public key to encrypt the message. 
-The other party uses its own private key to decrypt the message.
+wang:TLS
+https://blog.barracuda.com/2015/07/09/ssl-and-tls-explained/
+http://www.techradar.com/us/news/software/how-ssl-and-tls-works-1047412
+
+
