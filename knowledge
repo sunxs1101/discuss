@@ -5,8 +5,8 @@ https://blog.barracuda.com/2015/07/09/ssl-and-tls-explained/
 http://www.techradar.com/us/news/software/how-ssl-and-tls-works-1047412
 
 2016/7/15
-德摩斯梯尼
-pr后写个down
+表达：德摩斯梯尼，表达能力决定你能走多远，这点一定要练好。干练或者非常详细，不要“这个”，“哪个”，”嗯“
+习惯：pr后写个down
 
 http://tonybai.com/2015/04/30/go-and-https/
 找到这个中文的Golang tutorial。说明如何用Go写一个https server和对应的client，都load self-signed CA certificate，
