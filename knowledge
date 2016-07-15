@@ -7,3 +7,9 @@ http://www.techradar.com/us/news/software/how-ssl-and-tls-works-1047412
 2016/7/15
 德摩斯梯尼
 pr后写个down
+
+http://tonybai.com/2015/04/30/go-and-https/
+找到这个中文的Golang tutorial。说明如何用Go写一个https server和对应的client，都load self-signed CA certificate，
+然后各自有各自的 key pair，并且利用CA验证对方。这就解释了为什么Kubernetes需要 apiserver keypair 和 
+kubectl keypair——相当于 server 和 client互相用self-signed  CA 认证对方。
+建议大家有时间的时候都读一遍。
