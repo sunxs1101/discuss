@@ -13,3 +13,8 @@ http://tonybai.com/2015/04/30/go-and-https/
 然后各自有各自的 key pair，并且利用CA验证对方。这就解释了为什么Kubernetes需要 apiserver keypair 和 
 kubectl keypair——相当于 server 和 client互相用self-signed  CA 认证对方。
 建议大家有时间的时候都读一遍。
+
+
+kubernetes学习
+1.https://github.com/kelseyhightower/kubernetes-the-hard-way
+2.Udacity的Kubernetes课程 https://www.udacity.com/course/scalable-microservices-with-kubernetes--ud615
