@@ -1,23 +1,7 @@
 沉淀知识
-2016/7/14
-wang:TLS
-https://blog.barracuda.com/2015/07/09/ssl-and-tls-explained/
-http://www.techradar.com/us/news/software/how-ssl-and-tls-works-1047412
 
-2016/7/15
 表达：德摩斯梯尼，表达能力决定你能走多远，这点一定要练好。干练或者非常详细，不要“这个”，“哪个”，”嗯“
 习惯：pr后写个down
-
-http://tonybai.com/2015/04/30/go-and-https/
-找到这个中文的Golang tutorial。说明如何用Go写一个https server和对应的client，都load self-signed CA certificate，
-然后各自有各自的 key pair，并且利用CA验证对方。这就解释了为什么Kubernetes需要 apiserver keypair 和 
-kubectl keypair——相当于 server 和 client互相用self-signed  CA 认证对方。
-建议大家有时间的时候都读一遍。
-
-
-kubernetes学习
-1.https://github.com/kelseyhightower/kubernetes-the-hard-way
-2.Udacity的Kubernetes课程 https://www.udacity.com/course/scalable-microservices-with-kubernetes--ud615
 
 2016/7/18
 很多台机器安装怎么办？有操作系统，有ssh才能用ansible。没想起来pxe。
