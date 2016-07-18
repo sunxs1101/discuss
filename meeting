@@ -1,0 +1,10 @@
+
+
+
+
+2016/7/18
+http://www.tldp.org/HOWTO/Partition-Mass-Storage-Definitions-Naming-HOWTO/x99.html<br><br>
+5.1.2. New Hard Drives Names<br><br>Now all the rotating hard drives uses the same names as the old SCSI controllers, 
+that is "s" in place of "h", so /dev/sda, and so on. The number of drives depends on the number of controllers 
+on the Mother Board or the extended boards. Usually 4 are available. What will be the number of a drive is up to the controller 
+card and the way it's read by the kernel, so difficult to say at first.
