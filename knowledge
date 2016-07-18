@@ -18,3 +18,6 @@ kubectl keypair——相当于 server 和 client互相用self-signed  CA 认证�
 kubernetes学习
 1.https://github.com/kelseyhightower/kubernetes-the-hard-way
 2.Udacity的Kubernetes课程 https://www.udacity.com/course/scalable-microservices-with-kubernetes--ud615
+
+2016/7/18
+很多台机器安装怎么办？有操作系统，有ssh才能用ansible。没想起来pxe。
