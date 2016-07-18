@@ -1,6 +1,17 @@
+2016/7/14
+wang:TLS
+https://blog.barracuda.com/2015/07/09/ssl-and-tls-explained/
+http://www.techradar.com/us/news/software/how-ssl-and-tls-works-1047412
 
-
-
+2016/7/15
+http://tonybai.com/2015/04/30/go-and-https/
+找到这个中文的Golang tutorial。说明如何用Go写一个https server和对应的client，都load self-signed CA certificate，
+然后各自有各自的 key pair，并且利用CA验证对方。这就解释了为什么Kubernetes需要 apiserver keypair 和 
+kubectl keypair——相当于 server 和 client互相用self-signed  CA 认证对方。
+建议大家有时间的时候都读一遍。
+kubernetes学习
+1.https://github.com/kelseyhightower/kubernetes-the-hard-way
+2.Udacity的Kubernetes课程 https://www.udacity.com/course/scalable-microservices-with-kubernetes--ud615
 
 2016/7/18
 http://www.tldp.org/HOWTO/Partition-Mass-Storage-Definitions-Naming-HOWTO/x99.html<br><br>
@@ -8,3 +19,6 @@ http://www.tldp.org/HOWTO/Partition-Mass-Storage-Definitions-Naming-HOWTO/x99.ht
 that is "s" in place of "h", so /dev/sda, and so on. The number of drives depends on the number of controllers 
 on the Mother Board or the extended boards. Usually 4 are available. What will be the number of a drive is up to the controller 
 card and the way it's read by the kernel, so difficult to say at first.
+
+利用etcd自身的kv配置
+
