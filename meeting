@@ -20,5 +20,8 @@ that is "s" in place of "h", so /dev/sda, and so on. The number of drives depend
 on the Mother Board or the extended boards. Usually 4 are available. What will be the number of a drive is up to the controller 
 card and the way it's read by the kernel, so difficult to say at first.
 
-利用etcd自身的kv配置
+2016/7/19
+markdown
+- <a name=cluster>cluster</a> http://wowubuntu.com/markdown/
+- <a name=mark>mark</a>http://sspai.com/25137
 
