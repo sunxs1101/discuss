@@ -26,3 +26,10 @@ markdown
 - <a name=mark>mark</a>http://sspai.com/25137
 
 IPMI
+
+2016/7/26
+现在最欠缺的是一个总体安装过程描述：
+云知声机群的pxe server配置是通过 @李鹏  的这个文档： https://github.com/k8sp/bare-metal-coreos
+pxe server上的配置文件
+
+
